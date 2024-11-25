@@ -18,5 +18,5 @@ void usar_abs() {
 void usar_rand() {
     srand(time(0));  // Inicializa la semilla con el tiempo actual
     int random_number = rand();
-    printf("Número aleatorio: %d\n", random_number);
+    printf("Numero aleatorio: %d\n", random_number);
 }

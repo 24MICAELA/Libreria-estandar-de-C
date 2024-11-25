@@ -8,10 +8,10 @@ include_directories(cadenas)
 include_directories(funciones_comunes)
 
 add_executable(Libreria_estandar_de_C
-    archivos/cadenas.c
-    archivos/cadenas.h
-    cadenas/cadenas.c
+        cadenas/cadenas.c
     cadenas/cadenas.h
     funciones_comunes/funciones_comunes.c
     funciones_comunes/funciones_comunes.h
-    main.c)
+    main.c
+        archivos/archivos.h
+        archivos/archivos.c)

@@ -2,7 +2,7 @@
 https://github.com/24MICAELA/Libreria-estandar-de-C.git
 
 Enunciado
-1. Las funciones comunes del lenguaje C (<stdlib.h>)
+### 1. Las funciones comunes del lenguaje C (<stdlib.h>)
 
 a. Utiliza la función abs() para calcular el valor absoluto de un número entero. Prueba con varios números, incluyendo negativos.
 
@@ -40,7 +40,7 @@ int main() {
 }
 ```
 
-2. Cadenas (<string.h>)
+### 2. Cadenas (<string.h>)
 
 a. Crea dos cadenas de caracteres y usa la función strcmp() para compararlas. Prueba con cadenas iguales y diferentes.
 
@@ -79,7 +79,7 @@ int main() {
     return 0;
 }
 ```
-3. Archivos (<stdio.h>)
+### 3. Archivos (<stdio.h>)
 
 a. Usa la función fopen() para abrir un archivo de texto. Si el archivo no existe, muestra un mensaje de error.
 
@@ -176,7 +176,7 @@ int main() {
 }
 ```
 
-Paso 4: Compilar y ejecutar el código
+### Paso 4: Compilar y ejecutar el código
 
 Haz clic en "Build" en el menú superior.
 Selecciona "Build Project".

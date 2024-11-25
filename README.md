@@ -6,6 +6,7 @@ Enunciado
 
 a. Utiliza la función abs() para calcular el valor absoluto de un número entero. Prueba con varios números, incluyendo negativos.
 
+```
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -20,9 +21,11 @@ int main() {
 
     return 0;
 }
+```
+
 b. Usa la función rand() para generar un número aleatorio. Luego, usa srand() para cambiar la semilla de la generación de números aleatorios y observa cómo cambian los números generados.
 
-
+```
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
@@ -35,10 +38,13 @@ int main() {
 
     return 0;
 }
+```
+
 2. Cadenas (<string.h>)
 
 a. Crea dos cadenas de caracteres y usa la función strcmp() para compararlas. Prueba con cadenas iguales y diferentes.
 
+```
 #include <string.h>
 #include <stdio.h>
 
@@ -56,8 +62,10 @@ int main() {
 
     return 0;
 }
+```
 b. Usa la función strlen() para calcular la longitud de una cadena.
 
+```
 #include <string.h>
 #include <stdio.h>
 
@@ -70,11 +78,12 @@ int main() {
 
     return 0;
 }
+```
 3. Archivos (<stdio.h>)
 
 a. Usa la función fopen() para abrir un archivo de texto. Si el archivo no existe, muestra un mensaje de error.
 
-
+```
 #include <stdio.h>
 
 int main() {
@@ -89,9 +98,11 @@ int main() {
 
     return 0;
 }
+```
+
 b. Escribe en un archivo de texto usando fprintf(). Después, lee lo que escribiste usando fscanf().
 
-
+```
 #include <stdio.h>
 
 int main() {
@@ -123,6 +134,8 @@ int main() {
 
     return 0;
 }
+```
+
 Aquí te proporciono una guía paso a paso de cómo resolver uno de los ejercicios en CLion:
 
 Vamos a trabajar con el ejercicio 2a, donde creamos dos cadenas de caracteres y usamos la función strcmp() para compararlas.
@@ -143,6 +156,7 @@ Ponle un nombre al archivo (por ejemplo, "main") y selecciona "C" como "File typ
 Haz clic en "OK".
 Paso 3: Escribe el código del ejercicio Copia y pega el siguiente código en tu nuevo archivo de código C:
 
+```
 #include <string.h>
 #include <stdio.h>
 
@@ -160,6 +174,8 @@ int main() {
 
     return 0;
 }
+```
+
 Paso 4: Compilar y ejecutar el código
 
 Haz clic en "Build" en el menú superior.
